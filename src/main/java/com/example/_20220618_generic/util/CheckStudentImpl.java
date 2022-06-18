@@ -26,8 +26,8 @@ public class CheckStudentImpl implements CheckStudent{
         } catch(Exception e) {
             System.out.println(e.toString());
         }
-        System.out.println(getAllBodyValue.toString());
-        return "ok";
+
+        return getAllBodyValue.toString();
     }
 
 
